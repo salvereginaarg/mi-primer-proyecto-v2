@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/class/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="shortcut icon" href="/images/pf2.PNG" />
+    <title>Pink Floyd</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/images/1024px-Pink_Floyd_logo.svg.png" alt="led-zeppelin" width="334" height="100">
+        <form action="/send.php">
+            <div class="buscador">
+                <span><input class="buscar" type="text" name="texto" placeholder="buscar canción o album"></span>
+                <span><input class="opcion" type="radio" name="tipo" value="Canción">Canción</span>
+                <span><input class="opcion" type="radio" name="tipo" value="Album">Album</span>
+                <span><input type="submit" class="boton"></span>
+            </div>
+        </form>
+        <!-- 
+            <li><input class="buscar" type="text" placeholder="buscar canción o album"></li>
+            <li><input class="boton" type="submit"></li>
+             -->
+
+        <nav class="dropdown">
+            <ul>
+                <li  class="dropbtn"><a>Albums</a>
+                    <!-- start menu desplegable -->
+                    <ul class="dropdown-content">
+                        <li><a href="#">I wish to be here.</a></li>
+                        <li><a href="#">The Wall</a></li>
+                        <li><a href="#">A Momentary Lapse of Reason</a></li>
+                    </ul>
+                    <!-- end menu desplegable -->
+                </li>
+                <li class="dropbtn"><a href="#1">Fotos</a></li>
+                <li class="dropbtn"><a href="#2">Biografía</a></li>
+
+                <!--<li>
+                    <ul>
+                        <input type="text" name="name" placeholder="buscar tema" tabindex="1">
+                        <button type="submit">buscar</button>
+                    </ul>
+                </li>-->
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img class="imagenprincipal" src="/images/pinkfloyd.jpg" alt="integrantes">
+        </section>
+        <section class="videos">
+            <div><iframe width=60% height=100%
+                    src="https://www.youtube.com/embed/?listType=playlist&list=PL3PhWT10BW3Urh8ZXXpuU9h526ChwgWKy"
+                    controls=1 autoplay=1>
+                </iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright JLL 2020</p>
+    </footer>
+</body>
+
+</html>
